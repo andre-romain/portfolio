@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="sombre">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Romain André</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <div class="transition-volet-rouge"></div>
+    <div class="transition-volet-noir">
+        <img src="images/logo.png" alt="Transition Logo" class="logo-dans-transition">
+    </div>
+
+    <header id="main-header">
+        <a href="index.html" class="header-logo-link">
+            <img src="images/favicon.png" alt="Retour à l'accueil">
+        </a>
+        <nav class="nav-container">
+            <a href="index.html" class="nav-item">ACCUEIL</a>
+            <a href="parcours.html" class="nav-item">PARCOURS</a>
+            <a href="competences.html" class="nav-item">COMPÉTENCES</a>
+            
+            <div class="dropdown">
+                <span class="nav-item texte-projets-pc">PROJETS <span style="font-size: 14px; margin-left: 5px;">▼</span></span>
+                <div class="dropdown-content">
+                    <a href="pro.html">PROJETS professionnels</a>
+                    <a href="ecole.html">PROJETS ACADÉMIQUES</a>
+                    <a href="perso.html">PROJETS PERSOnnels</a>
+                </div>
+            </div>
+            
+            <a href="index.html#contact" class="nav-item contact-mobile">CONTACT</a>
+        </nav>
+        <a href="index.html#contact" class="btn-contact-header desktop-contact">CONTACT</a>
+        <button id="hamburger-menu" class="hamburger-btn">
+            <span></span><span></span><span></span>
+        </button>
+    </header>
+
+    <main class="wrapper">
+    <section style="grid-column: 1 / 13; text-align: center; position: relative; margin-top: 50px;">
+        <h1 class="anim-prenom" style="font-size: 100px;">PROJETS PERSOS</h1>
+        <br>
+        <div class="sous-titre" style="margin-top: 20px;">Mes expérimentations numériques</div>
+    </section>
+
+    <section class="skills-block" style="margin-top: 80px;">
+        <div class="projet-container">
+            
+            <a href="media/skate.mp4" target="_blank" class="projet-card" 
+                data-titre="Motion Tracking sur une Vidéo de Skate" 
+                data-categories="Vidéo, Tracking"
+                data-img="images/galerie/motion_preview.jpg"
+                data-media="https://youtube.com/shorts/lPAaLLIIP9c"
+                data-contexte="J'ai souhaité expérimenter l'intégration d'éléments numériques dans une vidéo réelle en mouvement, ici une séquence de skateboard."
+                data-mission="J'ai réalisé un tracking de points (Matchmoving) pour synchroniser des éléments graphiques avec le mouvement de la caméra. Mon travail portait sur la gestion de la perspective et l'ancrage précis des visuels sur la planche en mouvement pour obtenir un rendu fluide et réaliste."
+                data-role="VFX Artist" data-duree="5 heures"
+                data-outils="After Effects, Mocha" data-technos="Camera Tracking, Incrustation">
+                <h3>Motion Tracking sur une Vidéo de Skate</h3>
+                <p>Incrustation d'éléments graphiques sur une séquence en mouvement</p>
+                <img src="images/galerie/skate.jpg" alt="Motion Tracking Skate">
+            </a>
+
+            <a href="#" class="projet-card" 
+                data-titre="Design Produit : Prototype de Carte" 
+                data-categories="Illustration,Print"
+                data-img="images/galerie/pokemon_card_real.jpg"
+                data-media="https://youtube.com/shorts/IiyXdpggm20"
+                data-contexte="Ce projet visait à lier l'illustration numérique à la fabrication d'un objet physique parraissant à la fois réel et professionnel."
+                data-mission="J'ai réalisé une illustration haute définition que j'ai intégrée sur un gabarit officiel. Le projet a abouti à une impression sur support cartonné de qualité. J'ai ainsi appris à gérer les profils colorimétriques (CMJN) et les contraintes de mise en page pour l'impression."
+                data-role="Illustrateur & Maquettiste" data-duree="60 heures"
+                data-outils="Photoshop, IbisPaint X" data-technos="Dessin graphique, Mise en page Print, Prototypage">
+                <h3>Création et impression d'une carte Pokémon</h3>
+                <p>Illustration originale et réalisation d'un prototype imprimé</p>
+                <img src="images/galerie/pokemon_card_real.jpg" alt="Pokemon Card">
+            </a>
+
+            <a href="#" class="projet-card" 
+                data-titre="Composition Graphique Brutaliste" 
+                data-categories="Digital Art, Brutalisme"
+                data-img="images/galerie/InitialD.jpg"
+                data-media="media/InitialD.png"
+                data-contexte="Mon objectif était d'expérimenter le style brutaliste en l'appliquant à l'univers automobile japonais d'Initial D."
+                data-mission="J'ai élaboré une composition aux contrastes crus et à la mise en page asymétrique. J'ai travaillé sur des typographies massives et des textures brutes pour retranscrire l'énergie urbaine et radicale du mouvement brutaliste."
+                data-role="Illustrateur" data-duree="5 heures"
+                data-outils="Photoshop" data-technos="Brutalisme, Mise en page, Composition">
+                <h3>Affiche de Style Brutaliste</h3>
+                <p>Composition graphique radicale inspirée de l'univers d'Initial D</p>
+                <img src="images/galerie/InitialD.jpg" alt="Initial D">
+            </a>
+
+            <a href="#" class="projet-card" 
+                data-titre="Étude du Mouvement en rotoscopie" 
+                data-categories="Animation"
+                data-img="images/galerie/motion_preview.jpg"
+                data-media="https://youtu.be/RLADR7KayDY?si=7R91dPDhYkE6cPzZ"
+                data-contexte="Ce projet personnel consistait à explorer la dynamique du mouvement en m'inspirant des animations de combat du jeu vidéo Tekken 8."
+                data-mission="J'ai effectué une rotoscopie manuelle image par image pour décomposer le mouvement. J'ai ensuite ajouté des détails, et une traînée lumineuse pour accentuer la fluidité, la lisibilité, et l'impact visuel de l'action."
+                data-role="Motion Designer" data-duree="6 heures"
+                data-outils="After Effects, Tablette Graphique" data-technos="Rotoscopie, Animation de tracés">
+                <h3>Animation en Rotoscopie</h3>
+                <p>Décomposition du mouvement et création d'effets visuels dynamiques</p>
+                <img src="images/galerie/motion_preview.jpg" alt="Motion Design">
+            </a>
+
+            <a href="#" class="projet-card" 
+                data-titre="Affiche au Visuel Chaotique" 
+                data-categories="Retouche, Art Expérimental"
+                data-img="images/galerie/man.jpg"
+                data-media="media/man.png"
+                data-contexte="J'ai souhaité réaliser une affiche expérimentale centrée sur la déconstruction du portrait, fortement inspirée par l'approche chaotique de l'artiste Thomas Vanoost."
+                data-mission="J'ai superposé plusieurs couches de textures et de distorsions pour créer une sensation de chaos organisé. Ce travail sur l'accumulation et l'effacement symbolise la complexité de l'identité humaine à travers un étalonnage chromatique sombre."
+                data-role="Retouche photo" data-duree="3 heures"
+                data-outils="Photoshop" data-technos="Texturation, Superposition">
+                <h3>Affiche Expérimentale Chaotique</h3>
+                <p>Étude de la déconstruction inspirée par l'artiste Thomas Vanoost</p>
+                <img src="images/galerie/man.jpg" alt="Portrait">
+            </a>
+
+            <a href="#" class="projet-card" 
+                data-titre="Compositing style Analog CRT" 
+                data-categories="Photoshop, Compositing"
+                data-img="images/galerie/matrix.jpg"
+                data-media="media/matrix.png"
+                data-contexte="Mon objectif était de recréer l'esthétique matérielle des vieux moniteurs à tube cathodique (Analog CRT) appliquée à l'univers de Matrix."
+                data-mission="J'ai simulé des lignes de scan, des aberrations chromatiques et une courbure d'écran réaliste. J'ai harmonisé ces effets avec l'incrustation du code numérique pour donner un aspect tangible et rétro-futuriste à l'image."
+                data-role="Infographiste" data-duree="4 heures"
+                data-outils="Photoshop" data-technos="Scanlines, Aberration chromatique">
+                <h3>Compositing style Analog CRT</h3>
+                <p>Simulation de rendu d'écran cathodique et expérimentation rétro futuriste</p>
+                <img src="images/galerie/matrix.jpg" alt="Matrix">
+            </a>
+
+            <a href="#" class="projet-card" 
+                data-titre="Création d'un branding Twitch stylisé" 
+                data-categories="UI,Branding"
+                data-img="images/galerie/twitch_overlay.jpg"
+                data-media="media/twitch_overlay.pdf"
+                data-contexte="J'ai souhaité concevoir une interface complète pour le streaming, en m'appuyant sur l'esthétique des anciens systèmes d'exploitation."
+                data-mission="J'ai créé un overlay simulant l'interface de Windows 95, incluant des scènes d'attente et des cadres de jeu. J'ai dû réfléchir à l'ergonomie de l'écran pour concilier une esthétique forte avec une lisibilité optimale pour les spectateurs."
+                data-role="UI Designer" data-duree="2 heures"
+                data-outils="Photoshop, Illustrator" data-technos="Layout Design">
+                <h3>Branding Twitch stylisé</h3>
+                <p>Identité visuelle complète et interface utilisateur style Windows 95</p>
+                <img src="images/galerie/twitch_overlay.jpg" alt="Twitch Overlay">
+            </a>
+
+            <a href="#" class="projet-card" 
+                data-titre="Création de textures personnalisés" 
+                data-categories="Modding, Texture Painting, UI"
+                data-img="images/galerie/mods_preview.jpg"
+                data-media="https://gamebanana.com/members/1704915"
+                data-contexte="Sur la plateforme GameBanana, j'ai créé des textures personnalisés pour des jeux vidéos compétitifs (tel que Super Smash Bros. Ultimate ou Rivals of Aether 2) afin de créer une nouvelle expérience visuelle pour les utilisateurs."
+                data-mission="J'ai réalisé 6 projets complets incluant la peinture de textures 3D et la création d'assets d'interface (UI). J'ai appris à maîtriser leur intégration technique sur des logiciels spécifiques (injection de fichiers) et à assurer la maintenance des fichiers pour garantir leur compatibilité avec les mises à jour."
+                data-role="Moddeur, Texture Artist" data-duree="x"
+                data-outils="Photoshop, logiciels d'intégration spécifiques" data-technos="Texture Painting, Injection de fichiers">
+                <h3>Design & Intégration (Modding)</h3>
+                <p>Création de textures personnalisés pour des jeux vidéos compétitifs</p>
+                <img src="images/galerie/mods_preview.jpg" alt="Modding Game">
+            </a>
+
+            <a href="#" class="projet-card" 
+                data-titre="Art Numérique Expérimental" 
+                data-categories="Typographie, Glitch"
+                data-img="images/galerie/romainglitch.jpg"
+                data-media="media/romainglitch.png"
+                data-contexte="J'ai exploré ici le concept de beauté de l'erreur en déconstruisant un portrait numérique de manière volontaire."
+                data-mission="J'ai utilisé des techniques de décalage de couches RVB et de pixel sorting pour générer des distorsions. Ce projet m'a permis d'explorer des rendus disruptifs et d'utiliser Photoshop comme un outil de création artistique pure."
+                data-role="Visual Artist" data-duree="1 heures"
+                data-outils="Photoshop" data-technos="Glitch Effect, Pixel sorting">
+                <h3>Tyopgraphie de type Glitch Art</h3>
+                <p>Déconstruction visuelle et portrait numérique expérimental</p>
+                <img src="images/galerie/romainglitch.jpg" alt="Glitch Art">
+            </a>
+
+            <a href="#" class="projet-card" 
+                data-titre="Illustration Photocopie Pop Art" 
+                data-categories="Illustration, Concept Art"
+                data-img="images/galerie/angel.jpg"
+                data-media="media/angel.png"
+                data-contexte="Ce projet consistait à explorer un style graphique hybride entre la photocopie noir et blanc et le mouvement Pop Art."
+                data-mission="J'ai travaillé sur la saturation extrême des contrastes et l'ajout de trames mécaniques pour simuler un rendu fanzine. Mon but était de détourner une figure mystique onirique pour lui donner une esthétique de presse alternative underground."
+                data-role="Concept Artist" data-duree="2 heures"
+                data-outils="Photoshop" data-technos="Halftones, Style Photocopie, Pop Art">
+                <h3>Illustration Photocopie Pop Art</h3>
+                <p>Hybridation entre esthétique onirique et rendu fanzine vintage</p>
+                <img src="images/galerie/angel.jpg" alt="Angel Art">
+            </a>
+
+            <a href="#" class="projet-card" 
+                data-titre="Concept Art : Design de Créatures" 
+                data-categories="Concept Art, Illustration, Character Design"
+                data-img="images/galerie/fakemon_concept.jpg"
+                data-media="media/fakemon_concept.pdf"
+                data-contexte="Avant de directement dessiner avec les pixels, j'ai souhaité réaliser un travail de conception pure pour imaginer de nouveaux Pokémons avec une approche artistique moderne."
+                data-mission="J'ai travaillé sur la recherche de silhouettes et la création de palettes de couleurs cohérentes. Mon objectif était de définir l'anatomie et le caractère de chaque créature via le digital painting, en mettant l'accent sur les volumes et les textures."
+                data-role="Concept Artist" data-duree="15 heures"
+                data-outils="Photoshop, Tablette Graphique" data-technos="Character Design, Digital Painting">
+                <h3>Concept Art de pokémons</h3>
+                <p>Recherche graphique et illustration de créatures originales</p>
+                <img src="images/galerie/fakemon_concept.jpg" alt="Fakemon Concept Art">
+            </a>
+
+            <a href="#" class="projet-card" 
+                data-titre="Création de Pixel Art sous Contraintes" 
+                data-categories="Pixel Art, Character Design"
+                data-img="images/galerie/pixel_fakemon.jpg"
+                data-media="media/pixel_fakemon.pdf"
+                data-contexte="Mon objectif était de comprendre et de respecter les limitations techniques des consoles portables des années 2000, ici la GameBoy Advance."
+                data-mission="J'ai conçu 3 créatures originales en m'imposant une grille de 64x64 pixels et une palette de couleurs indexée. J'ai travaillé sur la synthèse visuelle et le shading pour rendre les sprites expressifs malgré la basse résolution."
+                data-role="Pixel Artist" data-duree="10 heures"
+                data-outils="Aseprite" data-technos="Shading indexé, Contraintes techniques">
+                <h3>Création de Pixel Art sous contraintes</h3>
+                <p>Création de sprites originaux respectant des limitations techniques strictes</p>
+                <img src="images/galerie/pixel_fakemon.jpg" alt="Fakemon">
+            </a>
+
+            <a href="#" class="projet-card" 
+                data-titre="Typographie au format 8 Bit" 
+                data-categories="Pixel art, Typographie"
+                data-img="images/galerie/pixel.jpg"
+                data-media="media/pixel.png"
+                data-contexte="Ce projet consistait à créer une typographie ressemblant a celle d'une interface de jeux vidéo rétro-stylisée."
+                data-mission="J'ai travaillé sur la synthèse visuelle d'un texte en 8 bit. Mon défi était de maintenir une reconnaissance immédiate des lettres tout en intégrant un dégradé avec du noir et du blanc seulement."
+                data-role="Pixel Artist" data-duree="2 heures"
+                data-outils="Aseprite, Photoshop" data-technos="Synthèse visuelle, Assets 2D">
+                <h3>Typographie au format 8 Bit</h3>
+                <p>Conception graphique minimaliste et synthèse visuelle d'objets</p>
+                <img src="images/galerie/pixel.jpg" alt="Pixel Assets">
+            </a>
+
+        </div>
+    </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Romain Andre - Portfolio MMI - Tous droits réservés.</p>
+    </footer>
+
+    <div id="projet-modal" class="modal">
+        <div class="modal-content-wrapper">
+            <span class="close-projet-modal">&times;</span>
+            <h1 id="modal-titre">TITRE</h1>
+            <div id="modal-categories" class="modal-tags"></div>
+
+            <div class="modal-body-grid">
+                <div class="modal-main-text">
+                    <h2>Le Contexte</h2>
+                    <p id="modal-contexte">Texte contexte</p>
+                    <h2>Ma Mission</h2>
+                    <p id="modal-mission">Texte mission</p>
+                </div>
+                <div class="modal-sidebar">
+                    <h3>Détails Techniques</h3>
+                    <ul>
+                        <li><strong>Rôle :</strong> <span id="modal-role"></span></li>
+                        <li><strong>Durée :</strong> <span id="modal-duree"></span></li>
+                        <li><strong>Outils :</strong> <span id="modal-outils"></span></li>
+                        <li><strong>Compétences :</strong> <span id="modal-technos"></span></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="modal-media-container" style="display: none;">
+                <a id="modal-media-btn" href="#" target="_blank">🔗 Découvrir le projet complet</a>
+            </div>
+
+            <div id="modal-galerie-section" style="display: none;">
+                <h2 class="galerie-titre">Aperçus</h2>
+                <div id="modal-galerie-container" class="galerie-grid"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

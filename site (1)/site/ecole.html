@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="sombre">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Romain André</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="transition-volet-rouge"></div>
+    <div class="transition-volet-noir">
+        <img src="images/logo.png" alt="Transition Logo" class="logo-dans-transition">
+    </div>
+
+    <header id="main-header">
+        <a href="index.html" class="header-logo-link">
+            <img src="images/favicon.png" alt="Retour à l'accueil">
+        </a>
+        <nav class="nav-container">
+            <a href="index.html" class="nav-item">ACCUEIL</a>
+            <a href="parcours.html" class="nav-item">PARCOURS</a>
+            <a href="competences.html" class="nav-item">COMPÉTENCES</a>
+            
+            <div class="dropdown">
+                <span class="nav-item texte-projets-pc">PROJETS <span style="font-size: 14px; margin-left: 5px;">▼</span></span>
+                <div class="dropdown-content">
+                    <a href="pro.html">PROJETS professionnels</a>
+                    <a href="ecole.html">PROJETS ACADÉMIQUES</a>
+                    <a href="perso.html">PROJETS PERSOnnels</a>
+                </div>
+            </div>
+            
+            <a href="index.html#contact" class="nav-item contact-mobile">CONTACT</a>
+        </nav>
+        <a href="index.html#contact" class="btn-contact-header desktop-contact">CONTACT</a>
+        <button id="hamburger-menu" class="hamburger-btn">
+            <span></span><span></span><span></span>
+        </button>
+    </header>
+
+    <main class="wrapper">
+        <section style="grid-column: 1 / 13; text-align: center; position: relative; margin-top: 50px;">
+            <h1 class="anim-prenom" style="font-size: 100px;">PROJETS ACADÉMIQUES</h1>
+            <br>
+            <div class="sous-titre" style="margin-top: 20px;">Travaux réalisés en BUT MMI</div>
+        </section>
+
+        <section class="skills-block" style="margin-top: 80px;">
+            <div class="projet-container">
+                
+                <a href="#" class="projet-card visible" 
+                   data-titre="Audit Stratégique d'Accessibilité" 
+                   data-categories="Audit,UX Design,SEO"
+                   data-img="images/galerie/audit_strategique_daccessibilite.jpg"
+                   data-media="media/audit_strategique_daccessibilite.pdf"
+                   data-galerie=""
+                   data-contexte="Ce projet consistait à analyser et comparer la présence en ligne de grandes métropoles mondiales (comme Madrid, Singapour, Tokyo et Londres) afin de formuler des recommandations pour un futur site web institutionnel, mieux optimisé."
+                   data-mission="En groupe, nous avons réalisé un audit complet en utilisant Lighthouse, Wave et EcoIndex pour évaluer l'accessibilité, le SEO et l'impact environnemental. Pour ma part, je me suis concentré sur l'UX et les réseaux sociaux. J'ai ainsi appris à analyser l'ergonomie, l'identité visuelle et à rédiger des recommandations argumentées."
+                   data-role="Auditeur Web & UX"
+                   data-duree="5 jours"
+                   data-outils="Lighthouse, Wave, EcoIndex"
+                   data-technos="Analyse SEO, Accessibilité">
+                    <h3>Audit Stratégique d'Accessibilité</h3>
+                    <p>Audit UX, SEO et éco-conception de sites web de grandes métropoles</p>
+                    <img src="images/galerie/audit_strategique_daccessibilite.jpg" alt="Audit Numérique">
+                </a>
+
+                <a href="#" class="projet-card visible"
+                   data-titre="Création d'Identité Visuelle" 
+                   data-categories="Design Graphique,Branding"
+                   data-img="images/galerie/creation_didentite_visuelle.jpg" 
+                   data-media="media/creation_didentite_visuelle.pdf"
+                   data-galerie=""
+                   data-contexte="Pour ce projet, mon objectif était de concevoir l'identité visuelle complète de Mojo Tunes, un magasin de musique souhaitant se moderniser tout en gardant un esprit rock, authentique et convivial."
+                   data-mission="J'ai tout d'abord créé une moodboard pour pouvoir proposer ma vision au client. Ensuite, j'ai créé un logotype (fusionnant une tête de guitare et une clé de sol), choisi une palette de couleurs et défini les typographies. J'ai ensuite décliné cette identité sur des cartes de visite, t-shirts et une façade de magasin. Cela m'a appris à traduire des concepts abstraits en éléments visuels cohérents."
+                   data-role="Designer Graphique"
+                   data-duree="5 jours"
+                   data-outils="Illustrator, Photoshop"
+                   data-technos="Branding, Charte Graphique">
+                    <h3>Création d'Identité Visuelle</h3>
+                    <p>Création d'un logo, d'un moodboard et de supports visuels pour un magasin</p>
+                    <img src="images/galerie/creation_didentite_visuelle.jpg" alt="Création Identité Visuelle">
+                </a>
+
+                <a href="#" class="projet-card visible" 
+                    data-titre="Site Web Horizon Supercars" 
+                    data-categories="Développement Web, UI/UX Design"
+                    data-img="images/galerie/horizon_supercars.jpg"
+                    data-media="https://sae203.mmi25g01.mmi-troyes.fr/index"
+                    data-contexte="Projet de création globale pour Horizon Supercars, une entreprise spécialisée dans la location et la vente d'automobiles de prestige. L'objectif était de concevoir une plateforme complète, dynamique et à l'image luxueuse et sportive de la marque."
+                    data-mission="J'ai pris en charge la réalisation complète de ce projet (SAE). Cela inclut la création de l'identité visuelle (logo, charte graphique), la conception de l'interface (UI/UX), et surtout le développement complet du site avec une base de données fonctionnelle."
+                    data-role="Développeur Web & Designer" data-duree="Projet SAE"
+                    data-outils="HTML/CSS, PHP, SQL, JS, Photoshop" data-technos="Développement Full-Stack, Web Design, Branding">
+                    <h3>Site Web Horizon Supercars</h3>
+                    <p>Design et développement complet d'un site web automobile de prestige</p>
+                    <img src="images/galerie/horizon_supercars.jpg" alt="Site Web Horizon Supercars">
+                </a>
+
+                <a href="#" class="projet-card visible"
+                   data-titre="Réalisation d'une Interview Vidéo" 
+                   data-categories="Audiovisuel, Montage"
+                   data-img="images/galerie/realisation_dune_interview_video.jpg" 
+                   data-media="https://youtu.be/Qz3iM0f63YQ"
+                   data-galerie=""
+                   data-contexte="Pour ce module, nous avons réalisé une interview vidéo de 2min30 centrée sur la passion d'Enzo pour le jeu Rocket League, avec pour objectif de légitimer la pratique du gaming et de l'esport auprès d'un large public."
+                   data-mission="Pour ma part, je me suis chargé du briefing, de la mise en place de l'éclairage 3 points et du cadrage champ/contre-champ. J'ai ensuite réalisé le montage entier sur Premiere Pro. J'ai assimilé les règles techniques (règle des 180 degrés) et l'importance de la synchronisation sonore."
+                   data-role="Cadreur & Monteur"
+                   data-duree="8 jours"
+                   data-outils="Premiere Pro, Caméras, Micros cravatte, Spot lumineux,"
+                   data-technos="Prise de vue, Éclairage, Montage">
+                    <h3>Réalisation d'une Interview Vidéo</h3>
+                    <p>Tournage et montage d'une interview format interview</p>
+                    <img src="images/galerie/realisation_dune_interview_video.jpg" alt="Interview Vidéo">
+                </a>
+
+                <a href="#" class="projet-card visible"
+                   data-titre="Développement Web PHP/SQL" 
+                   data-categories="Développement Web,Back-End"
+                   data-img="images/galerie/developpement_web_phpsql.jpg" 
+                   data-media="http://sae105.mmi25g01.mmi-troyes.fr/index.php"
+                   data-galerie=""
+                   data-contexte="Ce projet individuel consistait à créer un site web dynamique de 5 pages sur le thème de Clash Royale, en utilisant des bases de données et en respectant les normes d'accessibilité W3C."
+                   data-mission="J'ai développé le site en utilisant PHP pour la logique, SQL pour les données, et CSS/JS pour le design. J'ai intégré une galerie, un formulaire de contact et hébergé le projet sur un VPS. J'ai consolidé ma rigueur technique sur la sémantique et la génération de contenu dynamique."
+                   data-role="Développeur Full-Stack"
+                   data-duree="15 jours"
+                   data-outils="VS Code, Serveur VPS"
+                   data-technos="HTML/CSS, PHP, SQL, JS">
+                    <h3>Développement Web PHP/SQL</h3>
+                    <p>Conception entière d'un site web avec base de données</p>
+                    <img src="images/galerie/developpement_web_phpsql.jpg" alt="Site Web PHP SQL">
+                </a>
+
+                <a href="#" class="projet-card visible"
+                   data-titre="Stratégie de Lancement Marketing" 
+                   data-categories="Gestion de Projet,Marketing"
+                   data-img="images/galerie/strategie_de_lancement_marketing.jpg" 
+                   data-media="media/strategie_de_lancement_marketing.pdf"
+                   data-galerie=""
+                   data-contexte="En agence fictive, nous devions élaborer la stratégie de lancement d'une nouvelle boisson au durian, Duri Tropic, sur les marchés français, américain et japonais."
+                   data-mission="J'ai défini le périmètre du projet, co-réalisé le diagramme de Gantt pour planifier les tâches, et participé à l'élaboration de la stratégie de communication globale et du budget. J'ai appris à utiliser des outils de gestion professionnels et à adapter une stratégie selon des personas. Je me suis également porté volontaire pour passer à l'oral devant un amphithéatre complet pour présenter mon projet à d'autres étudiants"
+                   data-role="Chef de Projet Stratégie"
+                   data-duree="10 jours"
+                   data-outils="GanttProject, Outils Bureautiques"
+                   data-technos="Planification, Stratégie 360°">
+                    <h3>Stratégie de Lancement Marketing</h3>
+                    <p>Élaboration d'une stratégie de communication internationale</p>
+                    <img src="images/galerie/strategie_de_lancement_marketing.jpg" alt="Stratégie Marketing">
+                </a>
+
+                <a href="#" class="projet-card visible"
+                   data-titre="Sound Design & Narratologie" 
+                   data-categories="Audio,Sound Design"
+                   data-img="images/galerie/sound_design_et_narratologie.jpg" 
+                   data-media="https://youtu.be/B_25S-okYFM"
+                   data-galerie=""
+                   data-contexte="Ce projet consistait à produire un épisode de podcast de type enquête sonore, mêlant narration et ambiance terrifiante autour de la légende du 'Sneaky Pêcheur'."
+                   data-mission="J'ai travaillé sur l'écriture du script et on sur le montage sonore final sur Audacity. J'ai intégré des bruitages et musiques d'ambiance et mixé les voix pour créer une immersion totale. Cela m'a appris l'importance du nettoyage de pistes et du sound design pour transmettre des émotions."
+                   data-role="Sound Designer & Scénariste"
+                   data-duree="5 jours"
+                   data-outils="Audacity"
+                   data-technos="Prise de son, Mixage">
+                    <h3>Sound Design & Narratologie</h3>
+                    <p>Écriture, mixage et sound design d'un podcast audio</p>
+                    <img src="images/galerie/sound_design_et_narratologie.jpg" alt="Sound Design">
+                </a>
+            
+                <a href="#" class="projet-card visible" 
+                data-titre="Conception de Newsletter Éditoriale" 
+                data-categories="Édition, Layout, Marketing"
+                data-img="images/galerie/newsletter.jpg"
+                data-media="media/newsletter.pdf"
+                data-contexte="Création d'une newsletter structurée pour une marque de prêt-à-porter masculin, alliant hiérarchie de l'information et esthétique haut de gamme."
+                data-mission="Mise en page de blocs de contenus variés, travail sur la typographie pour la lisibilité pour un confort de lecture optimal sur support numérique."
+                data-role="Maquettiste PAO"
+                data-duree="3 heures"
+                data-outils="Photoshop, Canva" data-technos="Grille de mise en page, Hiérarchie visuelle, Copywriting">
+                    <h3>Design d'une Newsletter</h3>
+                    <p>Structuration d'informations complexes et mise en page éditoriale</p>
+                    <img src="images/galerie/newsletter.jpg" alt="Newsletter Design">
+                </a>
+
+                <a href="#" class="projet-card visible" 
+                data-titre="Communication Ciblée : Troyes Fitness" 
+                data-categories="Speed Design, Print, Marketing"
+                data-img="images/galerie/affiche_troyes_fitness.jpg"
+                data-media="media/affiche_troyes_fitness.pdf"
+                data-contexte="Création d'une affiche publicitaire pour 'Troyes Fitness' visant à attirer un public jeune (15-25 ans)."
+                data-mission="Conception d'un visuel impactant et dynamique en temps limité. Utilisation de codes graphiques modernes et intégration de leviers d'engagement (offre promotionnelle, réseaux sociaux)."
+                data-role="Graphic Designer" data-duree="1 heure"
+                data-outils="Photoshop, Canva" data-technos="Typographie impactante, Dynamisme visuel, Appel à l'action">
+                    <h3>Affiche Publicitaire Sport</h3>
+                    <p>Communication visuelle dynamique réalisée en 1 heure</p>
+                    <img src="images/galerie/affiche_troyes_fitness.jpg" alt="Affiche Troyes Fitness">
+                </a>
+
+                <a href="#" class="projet-card visible" 
+                data-titre="Sensibilisation : Sécurité Numérique" 
+                data-categories="Speed Design, Prévention, Infographie"
+                data-img="images/galerie/affiche_risques_numerique.jpg"
+                data-media="media/affiche_risques_numérique.pdf"
+                data-contexte="Réalisation d'un support de prévention sur les dangers du Wi-Fi public et la protection des données."
+                data-mission="Synthèse d'un sujet technique en un message visuel simple et percutant. Travail sur la symbolique et la clarté des solutions proposées (VPN, HTTPS)."
+                data-role="Graphic Designer" data-duree="1 heure"
+                data-outils="Photoshop, Canva" data-technos="Synthèse visuelle, Message de prévention, Hiérarchie d'information">
+                    <h3>Affiche Prévention Numérique</h3>
+                    <p>Design de sensibilisation et synthèse d'information en temps limité</p>
+                    <img src="images/galerie/affiche_risques_numerique.jpg" alt="Affiche Prévention Numérique">
+                </a>
+
+                <a href="#" class="projet-card visible" 
+                data-titre="Autoportrait Pictogramme Isotype" 
+                data-categories="Pictogrammes, Illustrator"
+                data-img="images/galerie/autoportrait_picto.jpg"
+                data-media="media/autoportrait_picto.pdf"
+                data-contexte="Le but de ce projet était de reprendre les codes esthétiques de Gerd Arntz (Isotypes d'Otto Neurath) afin de représenter son propre portrait."
+                data-mission="J'ai donc utilisé des courbes pures et d'espaces négatifs pour atteindre le degré de complexité requis. Le pictogramme vise une réduction des formes au minimum tout en gardant un niveau de lisibilité bon."
+                data-role="Designer Graphique" data-duree="2 heures"
+                data-outils="Adobe Illustrator" data-technos="Isotype, Minimalisme">
+                    <h3>Synthèse Graphique Isotype</h3>
+                    <p>Réduction visuelle et design de pictogramme minimaliste</p>
+                    <img src="images/galerie/autoportrait_picto.jpg" alt="Picto Isotype Autoportrait">
+                </a>
+
+                <a href="#" class="projet-card visible" 
+                    data-titre="Création de Cartes de Tarot (WIP)" 
+                    data-categories="Design Graphique, Illustrator, Illustration"
+                    data-img="images/galerie/tarot.jpg"
+                    data-media="media/tarot.pdf"
+                    data-contexte="Projet personnel en cours de réalisation : création d'un jeu de tarot divinatoire complet. L'objectif est de fusionner la rigueur géométrique de l'Art Déco avec les contours marqués et les couleurs vibrantes de l'esthétique Vitrail."
+                    data-mission="Conception vectorielle des arcanes majeurs sous Adobe Illustrator. Recherche iconographique sur le symbolisme du tarot. Travail sur la symétrie, les tracés épais et plats de couleur."
+                    data-role="Designer Graphique / Illustrateur Vectoriel"
+                    data-duree="En cours (WIP)"
+                    data-outils="Adobe Illustrator"
+                    data-technos="Tracé vectoriel, Géométrie Art Déco, Stylisation Vitrail">
+                    <h3>Création de Cartes de Tarot (WIP)</h3>
+                    <p>Conception vectorielle d'un jeu de tarot avec un style Art Déco / Vitrail</p>
+                    <img src="images/galerie/tarot.jpg" alt="Tarot WIP Art Deco Vitrail">
+                </a>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Romain Andre - Portfolio MMI - Tous droits réservés.</p>
+    </footer>
+
+    <div id="projet-modal" class="modal">
+        <div class="modal-content-wrapper">
+            <span class="close-projet-modal">&times;</span>
+            
+            <h1 id="modal-titre">TITRE</h1>
+            
+            <div id="modal-categories" class="modal-tags">
+                </div>
+
+            <div class="modal-body-grid">
+                <div class="modal-main-text">
+                    <h2>Le Contexte</h2>
+                    <p id="modal-contexte">Texte contexte</p>
+                    
+                    <h2>Ma Mission</h2>
+                    <p id="modal-mission">Texte mission</p>
+                </div>
+
+                <div class="modal-sidebar">
+                    <h3>Outils & Compétences</h3>
+                    <ul>
+                        <li><strong>Rôle :</strong> <span id="modal-role"></span></li>
+                        <li><strong>Durée :</strong> <span id="modal-duree"></span></li>
+                        <li><strong>Outils :</strong> <span id="modal-outils"></span></li>
+                        <li><strong>Compétences clés :</strong> <span id="modal-technos"></span></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="modal-media-container" style="display: none;">
+                <a id="modal-media-btn" href="#" target="_blank">🔗 Découvrir le projet complet</a>
+            </div>
+
+            <div id="modal-galerie-section" style="display: none;">
+                <h2 class="galerie-titre">Aperçus du projet</h2>
+                <div id="modal-galerie-container" class="galerie-grid">
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

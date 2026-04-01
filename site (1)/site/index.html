@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="sombre">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Romain André</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="transition-volet-rouge"></div>
+    
+    <div class="transition-volet-noir">
+        <img src="images/logo.png" alt="Transition Logo" class="logo-dans-transition">
+    </div>
+
+    <header id="main-header">
+        <a href="index.html" class="header-logo-link">
+            <img src="images/favicon.png" alt="Retour à l'accueil">
+        </a>
+        <nav class="nav-container">
+            <a href="index.html" class="nav-item">ACCUEIL</a>
+            <a href="parcours.html" class="nav-item">PARCOURS</a>
+            <a href="competences.html" class="nav-item">COMPÉTENCES</a>
+            
+            <div class="dropdown">
+                <span class="nav-item texte-projets-pc">PROJETS <span style="font-size: 14px; margin-left: 5px;">▼</span></span>
+                <div class="dropdown-content">
+                    <a href="pro.html">PROJETS professionnels</a>
+                    <a href="ecole.html">PROJETS ACADÉMIQUES</a>
+                    <a href="perso.html">PROJETS PERSOnnels</a>
+                </div>
+            </div>
+            
+            <a href="index.html#contact" class="nav-item contact-mobile">CONTACT</a>
+        </nav>
+        <a href="index.html#contact" class="btn-contact-header desktop-contact">CONTACT</a>
+        <button id="hamburger-menu" class="hamburger-btn">
+            <span></span><span></span><span></span>
+        </button>
+    </header>
+
+    <main class="wrapper">
+        <img src="images/mobile_index.png" alt="Romain André" class="mobile-index-img visible">
+
+        <section class="hero-block" style="grid-column: 1/8;">
+            <h1 class="titre-images">
+                <span class="anim-prenom">
+                    <img src="images/romain.png" alt="ROMAIN" class="img-romain">
+                </span>
+                <span class="anim-nom">
+                    <img src="images/andre.png" alt="ANDRÉ" class="img-andre">
+                </span>
+            </h1>
+            <div class="sous-titre" style="margin-top: 35px;">Graphisme, Management de Communauté, Web Design</div>
+        </section>
+
+        <a href="images/photogrand.jpg" id="btn-photo" class="photo-block">
+            <div class="scotch-decor scotch-1"></div>
+            <img src="images/photo.jpg" alt="Portrait">
+            <span class="polaroid-text">En recherche d'alternance !</span>
+        </a>
+
+        <section class="bio-block">
+            <div class="scotch-decor scotch-2"></div>
+            <h2>À propos de moi</h2>
+            <p>Bonjour et bienvenue sur mon portfolio. J'ai 21 ans et je suis actuellement en première année de <strong>BUT Métiers du Multimédia et de l'Internet (MMI)</strong> à l'IUT de Troyes.</p>
+            <p>Passionné par la création digitale, je souhaite utiliser mes nombreuses capacités pour aider les marques à définir leur identité. Entre direction artistique et création de contenu, j'ai comme objectif de créer des campagnes qui ne font pas que passer sous les yeux, mais qui ont un véritable impact.</p>
+            <p>C'est dans cette optique que je recherche une <strong>alternance en Création & Communication</strong> pour mobiliser mes compétences techniques et créatives et accompagner votre entreprise.</p>
+            <a href="CV_ANDRE_Romain.pdf" target="_blank" class="btn-cv">Accéder à mon CV</a>
+        </section>
+
+        <section class="skills-block" style="margin-top: 40px;">
+            <h2 class="section-title">MES OUTILS</h2>
+
+            <div class="categories-grid">
+                
+                <div class="categorie-card">
+                    <h3 class="categorie-titre">Graphisme & Design 🎨</h3>
+                    <p class="categorie-desc">De la conception d'identités visuelles à la retouche photo professionnelle,<br>ces outils me permettent de créer des maquettes et des visuels impactants.</p>
+                    <div class="sticker-container">
+                        <a href="https://fr.wikipedia.org/wiki/Figma_(logiciel)" target="_blank" class="sticker" title="Figma">
+                            <img src="images/apps/logo-figma.png" alt="Figma">
+                            <span class="app-name">Figma</span>
+                        </a>
+                        <a href="https://fr.wikipedia.org/wiki/Adobe_Photoshop" target="_blank" class="sticker" title="Photoshop">
+                            <img src="images/apps/logo-ps.png" alt="PS">
+                            <span class="app-name">Photoshop</span>
+                        </a>
+                        <a href="https://fr.wikipedia.org/wiki/Adobe_Illustrator" target="_blank" class="sticker" title="Illustrator">
+                            <img src="images/apps/logo-ai.png" alt="AI">
+                            <span class="app-name">Illustrator</span>
+                        </a>
+                        <a href="https://fr.wikipedia.org/wiki/Canva" target="_blank" class="sticker" title="Canva">
+                            <img src="images/apps/logo-canva.png" alt="Canva">
+                            <span class="app-name">Canva</span>
+                        </a>
+                        <a href="https://fr.wikipedia.org/wiki/Adobe_Photoshop_Lightroom" target="_blank" class="sticker" title="Lightroom">
+                            <img src="images/apps/logo-lr.png" alt="Lr">
+                            <span class="app-name">Lightroom</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="categorie-card">
+                    <h3 class="categorie-titre">Production Vidéo & Sonore 🎥</h3>
+                    <p class="categorie-desc">Qu'il s'agisse de montage dynamique, d'effets visuels ou de mixage audio,<br>j'utilise ces logiciels pour réaliser des productions de qualité.</p>
+                    <div class="sticker-container">
+                        <a href="https://fr.wikipedia.org/wiki/Adobe_Premiere_Pro" target="_blank" class="sticker" title="Premiere Pro">
+                            <img src="images/apps/logo-pr.png" alt="Pr">
+                            <span class="app-name">Premiere Pro</span>
+                        </a>
+                        <a href="https://fr.wikipedia.org/wiki/Adobe_After_Effects" target="_blank" class="sticker" title="After Effects">
+                            <img src="images/apps/logo-ae.png" alt="Ae">
+                            <span class="app-name">After Effects</span>
+                        </a>
+                        <a href="https://en.wikipedia.org/wiki/CapCut" target="_blank" class="sticker" title="CapCut">
+                            <img src="images/apps/logo-capcut.png" alt="CapCut">
+                            <span class="app-name">CapCut</span>
+                        </a>
+                        <a href="https://fr.wikipedia.org/wiki/FL_Studio" target="_blank" class="sticker" title="FL Studio">
+                            <img src="images/apps/logo-fl.png" alt="FL Studio">
+                            <span class="app-name">FL Studio</span>
+                        </a>
+                        <a href="https://fr.wikipedia.org/wiki/Audacity" target="_blank" class="sticker" title="Audacity">
+                            <img src="images/apps/logo-audacity.png" alt="Audacity">
+                            <span class="app-name">Audacity</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="categorie-card">
+                    <h3 class="categorie-titre">Développement Web & E-Commerce 🌐</h3>
+                    <p class="categorie-desc">De la maîtrise des langages de programmation à l'utilisation de multiples CMS,<br>je peux concevoir des sites sur mesure ainsi que des boutiques en ligne.</p>
+                    <div class="sticker-container">
+                        <a href="https://fr.wikipedia.org/wiki/HTML" target="_blank" class="sticker" title="HTML">
+                            <img src="images/apps/logo-html.png" alt="HTML">
+                            <span class="app-name">HTML</span>
+                        </a>
+                        <a href="https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade" target="_blank" class="sticker" title="CSS ">
+                            <img src="images/apps/logo-css.png" alt="CSS">
+                            <span class="app-name">CSS</span>
+                        </a>
+                        <a href="https://fr.wikipedia.org/wiki/JavaScript" target="_blank" class="sticker" title="JavaScript">
+                            <img src="images/apps/logo-js.png" alt="JS">
+                            <span class="app-name">JavaScript</span>
+                        </a>
+                        <a href="https://fr.wikipedia.org/wiki/PHP" target="_blank" class="sticker" title="PHP">
+                            <img src="images/apps/logo-php.png" alt="PHP">
+                            <span class="app-name">PHP</span>
+                        </a>
+                        <a href="https://fr.wikipedia.org/wiki/Python_(langage)" target="_blank" class="sticker" title="Python">
+                            <img src="images/apps/logo-python.png" alt="Python">
+                            <span class="app-name">Python</span>
+                        </a>
+                        <a href="https://fr.wikipedia.org/wiki/WordPress" target="_blank" class="sticker" title="WordPress">
+                            <img src="images/apps/logo-wp.png" alt="WP">
+                            <span class="app-name">WordPress</span>
+                        </a>
+                        <a href="https://en.wikipedia.org/wiki/Elementor" target="_blank" class="sticker" title="Elementor">
+                            <img src="images/apps/logo-elementor.png" alt="Elementor">
+                            <span class="app-name">Elementor</span>
+                        </a>
+                        <a href="https://fr.wikipedia.org/wiki/PrestaShop" target="_blank" class="sticker" title="PrestaShop">
+                            <img src="images/apps/logo-prestashop.png" alt="PrestaShop">
+                            <span class="app-name">PrestaShop</span>
+                        </a>
+                        <a href="https://fr.wikipedia.org/wiki/Shopify" target="_blank" class="sticker" title="Shopify">
+                            <img src="images/apps/logo-shopify.png" alt="Shopify">
+                            <span class="app-name">Shopify</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="categorie-card">
+                    <h3 class="categorie-titre">Réseaux Sociaux 📱</h3>
+                    <p class="categorie-desc">Indispensables pour développer une audience engagée et fidèle en ligne,<br>ces plateformes m'aident à diffuser du contenu adapté à chaque cible.</p>
+                    <div class="sticker-container">
+                        <a href="https://fr.wikipedia.org/wiki/Facebook" target="_blank" class="sticker" title="Facebook">
+                            <img src="images/apps/logo-fb.png" alt="Facebook">
+                            <span class="app-name">Facebook</span>
+                        </a>
+                        <a href="https://fr.wikipedia.org/wiki/Instagram" target="_blank" class="sticker" title="Instagram">
+                            <img src="images/apps/logo-insta.png" alt="Instagram">
+                            <span class="app-name">Instagram</span>
+                        </a>
+                        <a href="https://fr.wikipedia.org/wiki/TikTok" target="_blank" class="sticker" title="TikTok">
+                            <img src="images/apps/logo-tiktok.png" alt="TikTok">
+                            <span class="app-name">TikTok</span>
+                        </a>
+                        <a href="https://fr.wikipedia.org/wiki/LinkedIn" target="_blank" class="sticker" title="LinkedIn">
+                            <img src="images/apps/logo-linkedin.png" alt="LinkedIn">
+                            <span class="app-name">LinkedIn</span>
+                        </a>
+                        <a href="https://fr.wikipedia.org/wiki/X_(r%C3%A9seau_social)" target="_blank" class="sticker" title="X">
+                            <img src="images/apps/logo-x.png" alt="X">
+                            <span class="app-name">X</span>
+                        </a>
+                        <a href="https://fr.wikipedia.org/wiki/Threads_(r%C3%A9seau_social)" target="_blank" class="sticker" title="Threads">
+                            <img src="images/apps/logo-threads.png" alt="Threads">
+                            <span class="app-name">Threads</span>
+                        </a>
+                        <a href="https://fr.wikipedia.org/wiki/YouTube" target="_blank" class="sticker" title="YouTube">
+                            <img src="images/apps/logo-yt.png" alt="YouTube">
+                            <span class="app-name">YouTube</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="categorie-card">
+                    <h3 class="categorie-titre">Stratégie Digitale & Gestion 📢</h3>
+                    <p class="categorie-desc">Essentiels pour analyser les performances, lancer des campagnes ciblées<br>ou bien planifier le travail en équipe, que ce soit de la conception à la livraison.</p>
+                    <div class="sticker-container">
+                        <a href="https://fr.wikipedia.org/wiki/Meta_(entreprise)" target="_blank" class="sticker" title="Meta Business Suite">
+                            <img src="images/apps/logo-meta.png" alt="Meta">
+                            <span class="app-name">Meta Business Suite</span>
+                        </a>
+                        <a href="https://fr.wikipedia.org/wiki/Google_Ads" target="_blank" class="sticker" title="Google Ads">
+                            <img src="images/apps/logo-gads.png" alt="GAds">
+                            <span class="app-name">Google Ads</span>
+                        </a>
+                        <a href="https://fr.wikipedia.org/wiki/Google_Analytics" target="_blank" class="sticker" title="Google Analytics 4">
+                            <img src="images/apps/logo-ga4.png" alt="GA4">
+                            <span class="app-name">Google Analytics</span>
+                        </a>
+                        <a href="https://fr.wikipedia.org/wiki/Odoo" target="_blank" class="sticker" title="Odoo">
+                            <img src="images/apps/logo-odoo.png" alt="Odoo">
+                            <span class="app-name">Odoo</span>
+                        </a>
+                        <a href="https://fr.wikipedia.org/wiki/Microsoft_365" target="_blank" class="sticker" title="Microsoft 365">
+                            <img src="images/apps/logo-m365.png" alt="M365">
+                            <span class="app-name">Microsoft 365</span>
+                        </a>
+                        <a href="https://fr.wikipedia.org/wiki/GanttProject" target="_blank" class="sticker" title="Gantt Project">
+                            <img src="images/apps/logo-gantt.png" alt="Gantt">
+                            <span class="app-name">Gantt Project</span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        
+        <section class="skills-block" id="contact" style="margin-top: 60px; margin-bottom: 20px;">
+             <h2 class="section-title">ME CONTACTER</h2>
+             <div class="categorie-card visible" id="contact-box" style="max-width: 800px; margin: 0 auto; padding: 40px 30px;">
+                 <div class="scotch-decor scotch-1"></div>
+                 <p style="font-size: 18px; font-weight: bold; margin-bottom: 20px;">Une question, une opportunité, ou envie d'échanger avec moi ?<br>N'hésitez pas à me contacter directement !</p>
+                 
+                 <div style="font-family: var(--police-paragraphe); font-size: 18px; margin-bottom: 30px; line-height: 1.8;">
+                    📧 <a href="mailto:romain.andre@etudiant.univ-reims.fr" style="color: var(--texte); text-decoration: underline; text-decoration-color: var(--accent); font-weight: bold;">romain.andre@etudiant.univ-reims.fr</a><br>
+                    📞 <a href="tel:+33760405816" style="color: var(--texte); text-decoration: underline; text-decoration-color: var(--accent); font-weight: bold;">+33 7 60 40 58 16</a>
+                 </div>
+
+                 <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+                     <a href="mailto:romain.andre@etudiant.univ-reims.fr" class="btn-cv btn-mail">Envoyer un E-mail</a>
+                     <a href="https://www.linkedin.com/in/romain-andr%C3%A9-5b6b9635a/" target="_blank" class="btn-cv btn-linkedin">Mon LinkedIn</a>
+                 </div>
+             </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 - Romain André</p>
+    </footer>
+
+    <div id="photo-modal" class="modal">
+        <span class="close-modal">&times;</span>
+        <img src="images/photogrand.jpg" alt="Photo en grand">
+    </div>
+
+    <div id="projet-modal" class="modal">
+        <div class="modal-content-wrapper">
+            <span class="close-projet-modal">&times;</span>
+            
+            <h1 style="font-size: 60px; margin-bottom: 20px; text-transform: uppercase;">NOM DU PROJET</h1>
+            
+            <div style="display: flex; gap: 15px; margin-bottom: 40px; flex-wrap: wrap;">
+                <span style="background: transparent; border: 2px solid var(--texte); color: var(--texte); padding: 8px 20px; font-weight: 900; box-shadow: 4px 4px 0px rgba(0,0,0,0.1);">Développement Web</span>
+                <span style="background: transparent; border: 2px solid var(--texte); color: var(--texte); padding: 8px 20px; font-weight: 900; box-shadow: 4px 4px 0px rgba(0,0,0,0.1);">UI/UX Design</span>
+            </div>
+
+            <div style="position: relative; padding: 15px; background: var(--papier); box-shadow: var(--ombre); border: 2px solid var(--texte);">
+                <div class="scotch-decor scotch-1" style="left: 20%;"></div>
+                <img src="images/projet-1.jpg" alt="Image de couverture" style="width: 100%; max-height: 400px; object-fit: cover; filter: sepia(10%);">
+            </div>
+
+            <div style="display: flex; gap: 50px; flex-wrap: wrap; align-items: flex-start; margin-top: 60px;">
+                <div style="flex: 2; min-width: 280px; background: var(--papier); padding: 40px; box-shadow: var(--ombre); border: 2px solid var(--texte); position: relative; font-family: var(--police-paragraphe); font-size: 16px; line-height: 1.6;">
+                    <div class="scotch-decor scotch-2"></div>
+                    <h2 style="font-family: 'Bebas Neue', sans-serif; font-size: 40px; color: var(--accent); margin-top: 0; display: inline-block;">Le Contexte</h2>
+                    <p>Description du besoin initial, du client (réel ou fictif) ou des consignes données dans le cadre de la SAE. Expliquez brièvement quel était le problème à résoudre ou l'objectif à atteindre.</p>
+                    
+                    <h2 style="font-family: 'Bebas Neue', sans-serif; font-size: 40px; color: var(--accent); margin-top: 30px; display: inline-block;">Ma Mission</h2>
+                    <p>Détaillez ici votre rôle précis. Si c'était un travail de groupe, spécifiez quelles tâches vous avez réalisées. Parlez des choix techniques ou graphiques que vous avez faits et pourquoi.</p>
+                </div>
+
+                <div style="flex: 1; min-width: 250px; background: var(--fond-couleur); padding: 30px; border: 2px solid var(--texte); position: relative; box-shadow: 6px 8px 0px rgba(0,0,0,0.1);">
+                    <div class="scotch-decor scotch-1" style="left: auto; right: -20px; top: -10px; transform: rotate(45deg);"></div>
+                    <h3 style="font-family: 'Bebas Neue'; font-size: 30px; margin-top: 0; color: var(--texte); letter-spacing: 1px;">Fiche Technique</h3>
+                    <ul style="list-style: square; padding-left: 20px; line-height: 2.2; font-size: 15px; font-weight: bold; font-family: var(--police-paragraphe);">
+                        <li><strong>Rôle :</strong> Développeur Front-End</li>
+                        <li><strong>Durée :</strong> 3 semaines</li>
+                        <li><strong>Outils :</strong> VS Code, Figma, GitHub</li>
+                        <li><strong>Technos :</strong> HTML5, CSS3, JS</li>
+                    </ul>
+                    <a href="#" class="btn-cv" style="display: block; text-align: center; margin-top: 30px; font-size: 24px;">VOIR LE PROJET</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

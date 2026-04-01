@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="sombre">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Romain André</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="transition-volet-rouge"></div>
+    <div class="transition-volet-noir">
+        <img src="images/logo.png" alt="Transition Logo" class="logo-dans-transition">
+    </div>
+
+    <header id="main-header">
+        <a href="index.html" class="header-logo-link">
+            <img src="images/favicon.png" alt="Retour à l'accueil">
+        </a>
+        <nav class="nav-container">
+            <a href="index.html" class="nav-item">ACCUEIL</a>
+            <a href="parcours.html" class="nav-item">PARCOURS</a>
+            <a href="competences.html" class="nav-item">COMPÉTENCES</a>
+            
+            <div class="dropdown">
+                <span class="nav-item texte-projets-pc">PROJETS <span style="font-size: 14px; margin-left: 5px;">▼</span></span>
+                <div class="dropdown-content">
+                    <a href="pro.html">PROJETS professionnels</a>
+                    <a href="ecole.html">PROJETS ACADÉMIQUES</a>
+                    <a href="perso.html">PROJETS PERSOnnels</a>
+                </div>
+            </div>
+            
+            <a href="index.html#contact" class="nav-item contact-mobile">CONTACT</a>
+        </nav>
+        <a href="index.html#contact" class="btn-contact-header desktop-contact">CONTACT</a>
+        <button id="hamburger-menu" class="hamburger-btn">
+            <span></span><span></span><span></span>
+        </button>
+    </header>
+
+    <main class="wrapper">
+        <section style="grid-column: 1 / 13; text-align: center; position: relative; margin-top: 50px;">
+            <h1 class="anim-prenom" style="font-size: 100px;">PROJETS PRO</h1>
+            <br>
+            <div class="sous-titre" style="margin-top: 20px;">Missions réalisées chez Cévennes Magazine</div>
+        </section>
+
+        <section class="skills-block" style="margin-top: 80px;">
+            <div class="projet-container">
+                
+                <a href="#" class="projet-card visible" 
+                   data-titre="Création d'articles sur le site" 
+                   data-categories="Webmastering, SEO, Rédaction"
+                   data-img="images/galerie/cevennes_articles.jpg"
+                   data-media="https://cevennesmagazine.fr/smartblog/600_cevennesmagazine.html"
+                   data-galerie=""
+                   data-contexte="Alimentation régulière du site vitrine de Cévennes Magazine avec des actualités locales, des événements (ex: Concert de l'Épiphanie) et des articles sur le patrimoine."
+                   data-mission="Intégration du contenu textuel et visuel sur le CMS (PrestaShop). J'ai également travaillé sur l'optimisation du référencement naturel (SEO) en renseignant les balises titres, les meta descriptions et les mots-clés pour chaque nouvelle page."
+                   data-role="Intégrateur web"
+                   data-duree="Mission régulière"
+                   data-outils="Prestashop, CMS"
+                   data-technos="Intégration Web, SEO">
+                    <h3>Création d'articles web</h3>
+                    <p>Rédaction, intégration sur CMS et optimisation SEO</p>
+                    <img src="images/galerie/cevennes_articles.jpg" alt="Création articles CMS">
+                </a>
+
+                <a href="#" class="projet-card visible"
+                   data-titre="Community Management : Facebook & Instagram" 
+                   data-categories="Réseaux Sociaux, Community Management"
+                   data-img="images/galerie/cevennes_reseaux.jpg" 
+                   data-media="https://www.facebook.com/photo.php?fbid=1152164596912656"
+                   data-galerie=""
+                   data-contexte="Animation des communautés de lecteurs sur les réseaux sociaux pour promouvoir les abonnements, les idées cadeaux de Noël et les événements d'Alès."
+                   data-mission="Utilisation de Meta Business Suite pour programmer et publier simultanément sur Facebook et Instagram. J'ai rédigé les accroches, utilisé les hashtags pertinents et géré les visuels associés."
+                   data-role="Community Manager"
+                   data-duree="Mission régulière"
+                   data-outils="Meta Business Suite, Facebook, Instagram"
+                   data-technos="Planification, Rédaction sociale">
+                    <h3>Publication Facebook & Instagram</h3>
+                    <p>Gestion multi-plateforme via Meta Business Suite</p>
+                    <img src="images/galerie/cevennes_reseaux.jpg" alt="Posts Facebook Instagram">
+                </a>
+
+                <a href="#" class="projet-card visible" 
+                    data-titre="Campagnes Publicitaires Facebook Ads" 
+                    data-categories="Webmarketing, Social Ads"
+                    data-img="images/galerie/cevennes_ads.jpg"
+                    data-media="https://www.instagram.com/p/DDE7srcq3x2/"
+                    data-contexte="Afin de booster les ventes d'abonnements et de livres à prix réduits pour les fêtes, il a fallu mettre en place des campagnes sponsorisées pour atteindre un public plus large."
+                    data-mission="Création et paramétrage de publicités via l'outil publicitaire de Facebook. J'ai défini des audiences ciblées, par exemple sur la zone de Paris, en visant une tranche d'âge spécifique pour optimiser le budget et maximiser les conversions."
+                    data-role="Traffic Manager" 
+                    data-duree="Campagnes ponctuelles"
+                    data-outils="Facebook Ads Manager" 
+                    data-technos="Ciblage publicitaire, Sponsoring, Analyse d'audience">
+                    <h3>Annonces payantes sur Facebook</h3>
+                    <p>Sponsoring publicitaire et ciblage démographique</p>
+                    <img src="images/galerie/cevennes_ads.jpg" alt="Facebook Ads">
+                </a>
+
+                <a href="#" class="projet-card visible"
+                   data-titre="Déploiement de la stratégie Linkedin" 
+                   data-categories="Réseaux Sociaux, B2B"
+                   data-img="images/galerie/cevennes_linkedin.jpg" 
+                   data-media="https://www.linkedin.com/company/cevennes-magazine/"
+                   data-galerie=""
+                   data-contexte="Cévennes Magazine étant habilité à publier des annonces légales dans le Gard, il était nécessaire de développer une présence professionnelle sur Linkedin pour toucher une cible B2B."
+                   data-mission="Création complète de la page entreprise Linkedin. J'ai rédigé les présentations et publié des posts ciblés à l'attention des professionnels pour les informer de nos services d'annonces légales, incluant des liens vers notre système de devis en ligne."
+                   data-role="Community Manager B2B"
+                   data-duree="Création et Suivi"
+                   data-outils="LinkedIn"
+                   data-technos="Communication B2B, Networking">
+                    <h3>Mise en place de Linkedin</h3>
+                    <p>Création de page entreprise et communication ciblée B2B</p>
+                    <img src="images/galerie/cevennes_linkedin.jpg" alt="Linkedin B2B">
+                </a>
+
+                <a href="#" class="projet-card visible"
+                   data-titre="Organisation d'un Concours de Noël" 
+                   data-categories="Engagement, Événementiel, Community Management"
+                   data-img="images/galerie/cevennes_concours.jpg" 
+                   data-media="https://www.facebook.com/photo.php?fbid=1141939951268454"
+                   data-galerie=""
+                   data-contexte="Pour dynamiser la communauté en fin d'année, nous avons organisé un jeu concours sur un mois complet avec plusieurs tirages au sort pour faire gagner des lots chaques semaines."
+                   data-mission="Création du visuel, rédaction des règles d'engagement (abonnements, partages, mentions), et gestion opérationnelle du concours. J'ai utilisé une roue virtuelle pour effectuer les tirages au sort de manière transparente, et j'ai assuré la modération ainsi que les réponses aux messages privés des participants via la messagerie Meta."
+                   data-role="Gestionnaire de projet / Community Manager"
+                   data-duree="1 mois"
+                   data-outils="Facebook, Wheel of Names, Meta Inbox"
+                   data-technos="Fidélisation, Modération, SAV">
+                    <h3>Organisation d'un Concours de Noël</h3>
+                    <p>Organisation d'un jeu concours, tirage au sort et gestion de la messagerie</p>
+                    <img src="images/galerie/cevennes_concours.jpg" alt="Concours de Noel">
+                </a>
+
+                <a href="#" class="projet-card visible"
+                   data-titre="Création de visuels promotionnels" 
+                   data-categories="Graphisme, Print, Digital"
+                   data-img="images/galerie/cevennes_visuels.jpg" 
+                   data-media="https://www.facebook.com/photo.php?fbid=1227537856041996"
+                   data-galerie=""
+                   data-contexte="Besoin de supports de communication variés, tant pour les réseaux sociaux de l'entreprise que pour des événements physiques de représentation."
+                   data-mission="Création graphique de multiples supports, des bannières web pour la promotion des différents abonnements, design de chèques cadeaux, et conception d'un habillage de stand pour le salon Alespo."
+                   data-role="Graphiste"
+                   data-duree="Mission régulière"
+                   data-outils="Logiciels de PAO"
+                   data-technos="Design publicitaire, PLV, Déclinaison de formats">
+                    <h3>Création de visuels promotionnels</h3>
+                    <p>Bannières d'abonnement, habillage de stand événementiel et cartes cadeaux</p>
+                    <img src="images/galerie/cevennes_visuels.jpg" alt="Visuels Promotionnels">
+                </a>
+
+                <a href="#" class="projet-card visible"
+                   data-titre="Création et Qualification de Bases de Données" 
+                   data-categories="Data, Prospection, Administratif"
+                   data-img="images/galerie/cevennes_bdd.jpg" 
+                   data-media="https://annuaire.experts-comptables.org/recherche/ville/ales"
+                   data-galerie=""
+                   data-contexte="Pour soutenir l'activité de parution d'annonces légales, l'entreprise avait besoin de structurer et d'élargir son fichier de contacts professionnels dans la région (avocats, notaires, experts-comptables)."
+                   data-mission="Recherche, extraction et saisie de coordonnées professionnelles dans le département du Gard. J'ai qualifié les contacts, créé des groupes spécifiques via l'outil Contacts, et géré l'exportation des données sous format PDF ou vCard pour des campagnes de prospection ciblées."
+                   data-role="Assistant Data / Prospection"
+                   data-duree="Mission continue"
+                   data-outils="Carnet d'adresses (sur Mac), Excel"
+                   data-technos="Data Entry, Qualification B2B, Exportation">
+                    <h3>Création de bases de données</h3>
+                    <p>Création et qualification de bases de données</p>
+                    <img src="images/galerie/cevennes_bdd.jpg" alt="Base de données B2B">
+                </a>
+
+                <a href="#" class="projet-card visible"
+                   data-titre="Optimisation Google Business Profile" 
+                   data-categories="SEO Local, Webmarketing, Visibilité"
+                   data-img="images/galerie/cevennes_google.jpg" 
+                   data-media="https://share.google/mJhVu3mVEhy7MbYgC"
+                   data-galerie=""
+                   data-contexte="Amélioration de la vitrine numérique et de la visibilité locale de Cévennes Magazine sur le moteur de recherche Google et sur Google Maps."
+                   data-mission="Mise à jour et optimisation complète de la fiche d'établissement Google. Au-delà des informations de contact, j'ai structuré et intégré un catalogue de produits directement sur la fiche avec leurs visuels et prix pour générer du trafic qualifié et direct vers le site web."
+                   data-role="Spécialiste SEO Local"
+                   data-duree="Mission ponctuelle"
+                   data-outils="Google Business Profile"
+                   data-technos="Référencement Local, Parcours Utilisateur">
+                    <h3>Optimisation SEO Local Google</h3>
+                    <p>Configuration de la fiche Google et intégration du catalogue produits</p>
+                    <img src="images/galerie/cevennes_google.jpg" alt="Google Business Profile Cévennes Magazine">
+                </a>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Romain Andre - Portfolio MMI - Tous droits réservés.</p>
+    </footer>
+
+    <div id="projet-modal" class="modal">
+        <div class="modal-content-wrapper">
+            <span class="close-projet-modal">&times;</span>
+            
+            <h1 id="modal-titre">TITRE</h1>
+            
+            <div id="modal-categories" class="modal-tags">
+                </div>
+
+            <div class="modal-body-grid">
+                <div class="modal-main-text">
+                    <h2>Le Contexte</h2>
+                    <p id="modal-contexte">Texte contexte</p>
+                    
+                    <h2>Ma Mission</h2>
+                    <p id="modal-mission">Texte mission</p>
+                </div>
+
+                <div class="modal-sidebar">
+                    <h3>Outils & Compétences</h3>
+                    <ul>
+                        <li><strong>Rôle :</strong> <span id="modal-role"></span></li>
+                        <li><strong>Durée :</strong> <span id="modal-duree"></span></li>
+                        <li><strong>Outils :</strong> <span id="modal-outils"></span></li>
+                        <li><strong>Compétences clés :</strong> <span id="modal-technos"></span></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="modal-media-container" style="display: none;">
+                <a id="modal-media-btn" href="#" target="_blank">🔗 Découvrir le projet complet</a>
+            </div>
+
+            <div id="modal-galerie-section" style="display: none;">
+                <h2 class="galerie-titre">Aperçus du projet</h2>
+                <div id="modal-galerie-container" class="galerie-grid">
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
