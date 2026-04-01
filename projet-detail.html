@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Détail du projet</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="transition-volet-rouge"></div>
+    
+    <div class="transition-volet-noir">
+        <img src="images/logo.png" alt="Transition Logo" class="logo-dans-transition">
+    </div>
+
+    <header id="main-header">
+        <a href="index.html" class="header-logo-link">
+            <img src="images/favicon.png" alt="Retour à l'accueil">
+        </a>
+        <nav class="nav-container">
+            <a href="index.html" class="nav-item">ACCUEIL</a>
+            <a href="parcours.html" class="nav-item">PARCOURS</a>
+            <a href="competences.html" class="nav-item">COMPÉTENCES</a>
+            
+            <div class="dropdown">
+                <span class="nav-item texte-projets-pc">PROJETS <span style="font-size: 14px; margin-left: 5px;">▼</span></span>
+                <div class="dropdown-content">
+                    <a href="pro.html">PROJETS professionnels</a>
+                    <a href="ecole.html">PROJETS ACADÉMIQUES</a>
+                    <a href="perso.html">PROJETS PERSOnnels</a>
+                </div>
+            </div>
+            
+            <a href="index.html#contact" class="nav-item contact-mobile">CONTACT</a>
+        </nav>
+        <a href="index.html#contact" class="btn-contact-header desktop-contact">CONTACT</a>
+        <button id="hamburger-menu" class="hamburger-btn">
+            <span></span><span></span><span></span>
+        </button>
+    </header>
+
+    <main class="wrapper">
+        
+        <section style="grid-column: 1 / 13;">
+            <a href="index.html" style="display: inline-block; color: var(--fond-couleur); background: var(--texte); text-decoration: none; font-weight: 900; font-family: 'Montserrat', sans-serif; padding: 12px 24px; box-shadow: 6px 6px 0px var(--accent); transition: 0.2s;">← RETOUR</a>
+        </section>
+
+        <section style="grid-column: 1 / 13; position: relative; margin-top: 40px;">
+            <h1 class="anim-prenom" style="font-size: 90px; margin-bottom: 20px;">NOM DU PROJET</h1>
+            
+            <div style="display: flex; gap: 15px; margin-bottom: 40px; flex-wrap: wrap;">
+                <span style="background: transparent; border: 2px solid var(--texte); color: var(--texte); padding: 8px 20px; font-weight: 900; box-shadow: 4px 4px 0px rgba(0,0,0,0.1);">Développement Web</span>
+                <span style="background: transparent; border: 2px solid var(--texte); color: var(--texte); padding: 8px 20px; font-weight: 900; box-shadow: 4px 4px 0px rgba(0,0,0,0.1);">UI/UX Design</span>
+            </div>
+
+            <div style="position: relative; padding: 15px; background: var(--papier); box-shadow: var(--ombre); border: 2px solid var(--texte);">
+                <div class="scotch-decor scotch-1" style="left: 20%;"></div>
+                <img src="images/projet-1.jpg" alt="Image de couverture" style="width: 100%; max-height: 500px; object-fit: cover; filter: sepia(10%);">
+            </div>
+        </section>
+
+        <section style="grid-column: 1 / 13; display: flex; gap: 50px; flex-wrap: wrap; align-items: flex-start; margin-top: 60px;">
+            
+            <div style="flex: 2; min-width: 320px; background: var(--papier); padding: 50px; box-shadow: var(--ombre); border: 2px solid var(--texte); position: relative; font-family: var(--police-paragraphe); font-size: 16px; line-height: 1.6;">
+                <div class="scotch-decor scotch-2"></div>
+                <h2 style="font-family: 'Bebas Neue', sans-serif; font-size: 50px; color: var(--accent); margin-top: 0; background: var(--papier); padding: 0 10px; display: inline-block;">Le Contexte</h2>
+                <p>Description du besoin initial, du client (réel ou fictif) ou des consignes données dans le cadre de la SAE. Expliquez brièvement quel était le problème à résoudre ou l'objectif à atteindre.</p>
+                
+                <h2 style="font-family: 'Bebas Neue', sans-serif; font-size: 50px; color: var(--accent); margin-top: 50px; background: var(--papier); padding: 0 10px; display: inline-block;">Ma Mission</h2>
+                <p>Détaillez ici votre rôle précis. Si c'était un travail de groupe, spécifiez quelles tâches vous avez réalisées. Parlez des choix techniques ou graphiques que vous avez faits et pourquoi.</p>
+            </div>
+
+            <div style="flex: 1; min-width: 280px; background: var(--fond-couleur); padding: 40px; border: 2px solid var(--texte); position: relative; box-shadow: 6px 8px 0px rgba(0,0,0,0.1);">
+                <div class="scotch-decor scotch-1" style="left: auto; right: -20px; top: -10px; transform: rotate(45deg);"></div>
+                <h3 style="font-family: 'Bebas Neue'; font-size: 40px; margin-top: 0; color: var(--texte); letter-spacing: 1px;">Fiche Technique</h3>
+                <ul style="list-style: square; padding-left: 20px; line-height: 2.2; font-size: 16px; font-weight: bold; font-family: var(--police-paragraphe);">
+                    <li><strong>Rôle :</strong> Développeur Front-End</li>
+                    <li><strong>Durée :</strong> 3 semaines</li>
+                    <li><strong>Outils :</strong> VS Code, Figma, GitHub</li>
+                    <li><strong>Technos :</strong> HTML5, CSS3, JS</li>
+                </ul>
+                <a href="#" class="btn-cv" style="display: block; text-align: center; margin-top: 40px;">VOIR LE PROJET</a>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Romain Andre - Portfolio MMI - Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
