@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rock+Salt&family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap');
 :root { --fond-couleur: #1a1a1d; --texte: #f1f1f1; --papier: #2d2d35; --accent: #ff6b81; --ombre: 8px 8px 0px rgba(0,0,0,0.5); --grille-couleur: rgba(255, 255, 255, 0.05); --police-paragraphe: 'Roboto', sans-serif; }
-html { scroll-behavior: smooth; background-color: var(--fond-couleur); }
+html { scroll-behavior: smooth; background-color: var(--fond-couleur); background-image: linear-gradient(135deg, #1a1a1d 0%, #1e1e22 100%); background-attachment: fixed; }
 * { box-sizing: border-box; }
-body { background-color: var(--fond-couleur); background-image: linear-gradient(135deg, #1a1a1d 0%, #1e1e22 100%); background-attachment: fixed; min-height: 100vh; color: var(--texte); font-family: 'Montserrat', sans-serif; margin: 0; padding: 0; overflow-x: hidden; }
+body { min-height: 100vh; color: var(--texte); font-family: 'Montserrat', sans-serif; margin: 0; padding: 0; overflow-x: hidden; }
 body::before { content: ""; position: fixed; top: 0; left: 0; width: 100%; height: 100vh; background-image: linear-gradient(var(--grille-couleur) 1px, transparent 1px), linear-gradient(to right, var(--grille-couleur) 1px, transparent 1px); background-size: 40px 40px; pointer-events: none; z-index: -1; }
 p { font-family: var(--police-paragraphe); line-height: 1.6; }
 @keyframes fadeInDown { from { opacity: 0; transform: translateY(-30px); } to { opacity: 1; transform: translateY(0); } }
