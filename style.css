@@ -1,25 +1,4 @@
-@font-face {
-  font-family: 'Bebas Neue';
-  src: url('fonts/bebas-neue.woff2') format('woff2');
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Rock Salt';
-  src: url('fonts/rock-salt.woff2') format('woff2');
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Montserrat';
-  src: url('fonts/montserrat.woff2') format('woff2');
-  font-weight: 400 700;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Roboto';
-  src: url('fonts/roboto.woff2') format('woff2');
-  font-weight: 400 700;
-  font-display: swap;
-}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rock+Salt&family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap');
 :root { --fond-couleur: #1a1a1d; --texte: #f1f1f1; --papier: #2d2d35; --accent: #ff6b81; --ombre: 8px 8px 0px rgba(0,0,0,0.5); --grille-couleur: rgba(255, 255, 255, 0.05); --police-paragraphe: 'Roboto', sans-serif; }
 html { scroll-behavior: smooth; background-color: var(--fond-couleur); background-image: linear-gradient(135deg, #1a1a1d 0%, #1e1e22 100%); background-attachment: fixed; }
 * { box-sizing: border-box; }
